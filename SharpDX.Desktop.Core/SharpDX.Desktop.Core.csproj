@@ -3,6 +3,19 @@
   <PropertyGroup>
     <TargetFrameworks>net461;netcoreapp3.0;</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>4.2.0</Version>
+    <AssemblyVersion>4.2.0.0</AssemblyVersion>
+    <Description>Assembly providing APIs related to Desktop platform with support for .Net Core 3.x(or above) and .Net framework 4..6.1(or above)</Description>
+    <Copyright>Copyright (c) 2010-2020 Alexandre Mutel;  Copyright (c) 2020 newky2k</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/newky2k/SharpDX.Desktop.Core</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageProjectUrl>https://github.com/newky2k/SharpDX.Desktop.Core</PackageProjectUrl>
+    <PackageReleaseNotes>Initial release for .Net Core 3.x and .Net Framework 4.6.1 or above</PackageReleaseNotes>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>DSoft.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -17,6 +30,13 @@
   <ItemGroup>
     <PackageReference Include="SharpDX" Version="4.2.0" />
     <PackageReference Include="SharpDX.Mathematics" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
