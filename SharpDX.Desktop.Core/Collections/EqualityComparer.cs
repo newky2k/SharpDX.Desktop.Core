@@ -31,7 +31,7 @@ namespace SharpDX.Collections
         /// <summary>
         /// A default <see cref="IEqualityComparer{T}"/> for <see cref="System.IntPtr"/>.
         /// </summary>
-        public static readonly IEqualityComparer<IntPtr> DefaultIntPtr = new IntPtrComparer();
+        internal static readonly IEqualityComparer<IntPtr> DefaultIntPtr = new IntPtrComparer();
 
         internal class IntPtrComparer : EqualityComparer<IntPtr>
         {
