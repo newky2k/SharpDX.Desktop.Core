@@ -12,10 +12,16 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/newky2k/SharpDX.Desktop.Core</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
-    <PackageProjectUrl>https://github.com/newky2k/SharpDX.Desktop.Core</PackageProjectUrl>
+    <PackageProjectUrl>http://sharpdx.org/</PackageProjectUrl>
     <PackageReleaseNotes>Initial release for .Net Core 3.x and .Net Framework 4.6.1 or above</PackageReleaseNotes>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>DSoft.snk</AssemblyOriginatorKeyFile>
+    <AssemblyName>SharpDX.Desktop</AssemblyName>
+    <RootNamespace>SharpDX.Desktop</RootNamespace>
+    <PackageId>DSoft.SharpDX.Desktop</PackageId>
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <Authors>xoofx, newky2k</Authors>
+    <Company>xoofx, newky2k</Company>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
