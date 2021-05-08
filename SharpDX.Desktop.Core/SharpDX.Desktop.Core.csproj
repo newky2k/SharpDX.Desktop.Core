@@ -5,9 +5,9 @@
     <UseWindowsForms>true</UseWindowsForms>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>4.2.0</Version>
-    <AssemblyVersion>4.2.0.0</AssemblyVersion>
-    <Description>Assembly providing APIs related to Desktop platform with support for .Net Core 3.x(or above) and .Net framework 4..6.1(or above)</Description>
+    <Version>4.2.1</Version>
+    <AssemblyVersion>4.2.1.0</AssemblyVersion>
+    <Description>Assembly providing APIs related to Desktop platform with support for .Net Core 3.1, .Net framework 4.6.1+ and .NET 5.0+</Description>
     <Copyright>Copyright (c) 2010-2020 Alexandre Mutel;  Copyright (c) 2021 newky2k</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/newky2k/SharpDX.Desktop.Core</RepositoryUrl>
