@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28407.52
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpDX.Desktop.Core", "SharpDX.Desktop.Core\SharpDX.Desktop.Core.csproj", "{04E08468-526A-4CF1-A72D-ED69A02A4624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".ci", ".ci", "{0F5F6394-9BF1-41FE-89B6-67AD63E0C883}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines-mergetest.yml = azure-pipelines-mergetest.yml
+		azure-pipelines-release.yml = azure-pipelines-release.yml
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
