@@ -7,13 +7,10 @@
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Version>4.3.1</Version>
 		<AssemblyVersion>4.3.1.0</AssemblyVersion>
-		<Description>Assembly providing APIs related to Desktop platform with support for .Net Core 3.1, .Net framework 4.6.1+ and .NET 6.0 and .NET 8.0</Description>
-		<Copyright>Copyright (c) 2010-2020 Alexandre Mutel;  Copyright (c) 2024 newky2k</Copyright>
+		<Description>Assembly providing APIs related to Desktop platform with support for .NET framework 4.6.1+ and .NET 6.0, 8.0 and 9.0</Description>
+		<Copyright>Copyright (c) 2010-2020 Alexandre Mutel;  Copyright (c) 2025 newky2k</Copyright>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
-		<RepositoryUrl>https://github.com/newky2k/SharpDX.Desktop.Core</RepositoryUrl>
-		<RepositoryType>github</RepositoryType>
-		<PackageProjectUrl>https://github.com/newky2k/SharpDX.Desktop.Core</PackageProjectUrl>
-		<PackageReleaseNotes>Updated to include support for .Net 6.0 and .NET 8.0, removed  .NET Core 3.1</PackageReleaseNotes>
+		<PackageReleaseNotes>Added .NET 9.0 Support</PackageReleaseNotes>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>DSoft.snk</AssemblyOriginatorKeyFile>
 		<AssemblyName>SharpDX.Desktop</AssemblyName>
@@ -23,7 +20,6 @@
 		<Authors>xoofx, newky2k</Authors>
 		<Company>xoofx, newky2k</Company>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
-
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
