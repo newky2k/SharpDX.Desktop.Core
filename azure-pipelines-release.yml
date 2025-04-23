@@ -19,11 +19,17 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  netVersion: '8.0.x'
+  netVersion: '9.x'
   releaseSuffix: ''
 
-name: 4.3.$(date:yyMM).$(date:dd)$(rev:r)
+name: 4.4.$(date:yyMM).$(date:dd)$(rev:r)
 steps:
+- task: UseDotNet@2
+  displayName: Install .Net 9.x
+  inputs:
+    packageType: 'sdk'
+    version: '$(netVersion)'
+
 - task: NuGetToolInstaller@1
   displayName: Install Latest Nuget
 

@@ -52,7 +52,10 @@ namespace SharpDX
         #region Constructors and Destructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Win32.MessageFilterHook" /> class.
+        /// Initializes a new instance of the <see cref="MessageFilterHook" /> class.
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MessageFilterHook" /> class.
+        /// </summary>
         /// </summary>
         /// <param name="hwnd">The HWND.</param>
         private MessageFilterHook(IntPtr hwnd)

@@ -12,8 +12,15 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+  netVersion: '9.x'
 
-steps:  
+steps:
+- task: UseDotNet@2
+  displayName: Install .Net 9.x
+  inputs:
+    packageType: 'sdk'
+    version: '$(netVersion)'
+
 - task: NuGetToolInstaller@1
   displayName: Install Latest Nuget
 
