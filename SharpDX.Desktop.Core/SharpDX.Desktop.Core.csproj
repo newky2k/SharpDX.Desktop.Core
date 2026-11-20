@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
 	<PropertyGroup>
-		<TargetFrameworks>net461;net6.0-windows;net8.0-windows;</TargetFrameworks>
+		<TargetFrameworks>net461;net6.0-windows;net8.0-windows;net10.0-windows;net11.0-windows</TargetFrameworks>
 		<UseWindowsForms>true</UseWindowsForms>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Version>4.3.1</Version>
 		<AssemblyVersion>4.3.1.0</AssemblyVersion>
-		<Description>Assembly providing APIs related to Desktop platform with support for .NET framework 4.6.1+ and .NET 6.0, 8.0 and 9.0</Description>
+		<Description>Assembly providing APIs related to Desktop platform with support for .NET framework 4.6.1+ and .NET 6.0, 8.0, 10.0 and 11.0</Description>
 		<Copyright>Copyright (c) 2010-2020 Alexandre Mutel;  Copyright (c) 2025 newky2k</Copyright>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
-		<PackageReleaseNotes>Added .NET 9.0 Support</PackageReleaseNotes>
+		<PackageReleaseNotes>Added .NET 10.0 and .NET 11.0 support</PackageReleaseNotes>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>DSoft.snk</AssemblyOriginatorKeyFile>
 		<AssemblyName>SharpDX.Desktop</AssemblyName>
